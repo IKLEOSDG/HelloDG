@@ -33,4 +33,15 @@
 
 ## 仓库结构
 
-- `.agents/skills/dg/SKILL.md`：DG skill 的主入口与行为规范
+- `SKILL.md`：仓库对外入口（给 GitHub 读者看的简介版）
+- `.agents/skills/dg/SKILL.md`：Codex 使用的 DG skill 主入口与行为规范（核心文件）
+- `examples/`：效果示例（建议用真实问题/对话展示“唠嗑→收口”的过程）
+- `references/research/`：方法论与材料沉淀（术语口径、模板、打法，支撑 SKILL 的可迭代）
+- `LICENSE`：MIT License
+
+## 贡献方式
+
+欢迎用 PR 的方式补充：
+
+- 新增 `examples/*.md`（一个问题一个示例，越贴近真实越好）
+- 在 `references/research/` 里沉淀“可复用模板/口径/打法”
